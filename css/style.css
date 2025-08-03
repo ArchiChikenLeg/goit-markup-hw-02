@@ -147,7 +147,7 @@ header{
     text-align: center;
 }
 
-footer{
+.footer{
     color:var(--light-color);
     background-color: var(--dark-color);
 }
@@ -156,14 +156,20 @@ footer{
     font-family:'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     letter-spacing: 3%;
     text-decoration: none;
-    color: var(--light-color);
+    color: var(--primary-brand-color);
 }
 
+.footer-accent-logo{
+    color: var(--light-color);
+}
 .footer-text{
     width: 264px;
     height: 72px;
     text-align: left;
+    letter-spacing: 0.02em;
 }
