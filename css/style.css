@@ -80,19 +80,41 @@ header{
     text-transform: uppercase;
     letter-spacing: 3%;
     text-decoration: none;
-    color: var(--dark-color);
+    color: var(--primary-brand-color);
+    line-height: 1.17;
+    letter-spacing: 0.03em;
 }
 
 .accent-logo{
-    color: var(--primary-brand-color);
+    color: var(--dark-color);
 }
 
 .header-menu{
     color: var(--dark-color);
     font-weight: 500;
 }
-.header-menu a{
+.header-menu .nav-item{
     text-decoration: none;
+    letter-spacing: 0.02em;
+    color: var(--dark-color);
+}
+
+.header-menu .nav-item:hover,
+.header-menu .nav-item:focus{
+    color: var(--pressed-state-color);
+}
+
+.header-contacts{
+    font-style: normal
+}
+
+.header-contacts-li{
+    letter-spacing: 0.02em;
+}
+
+.header-contacts-li:hover,
+.header-contacts-li:focus{
+    color: var(--pressed-state-color)
 }
 
 .section-hero{
